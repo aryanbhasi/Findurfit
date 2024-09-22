@@ -1,0 +1,95 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(145deg, #0d0d0d, #262626); /* Black metallic background */
+    font-family: Arial, sans-serif;
+}
+
+/* Container */
+.container {
+    background-color: #1a1a1a; /* Slightly lighter black for the form */
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6); /* Metallic shadow effect */
+    max-width: 400px;
+    width: 100%;
+    border: 1px solid #444; /* Border to make the form stand out */
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 36px;
+    color: #f0f0f0; /* White metallic for the text */
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px #888; /* Gives a glowing metallic effect */
+}
+
+h2 {
+    font-size: 24px;
+    color: #bbbbbb; /* Lighter gray-white metallic */
+    margin-bottom: 20px;
+    text-shadow: 0 0 8px #666; /* Softer metallic shadow */
+}
+
+/* Paragraph */
+p {
+    color: #e0e0e0; /* Slightly off-white metallic */
+    margin-bottom: 30px;
+    text-shadow: 0 0 5px #555;
+}
+
+/* Email Form */
+.email-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.email-form input {
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: #f0f0f0;
+    box-shadow: inset 0 0 5px #666; /* Metallic inset shadow */
+}
+
+.email-form input::placeholder {
+    color: #aaa;
+}
+
+.email-form button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Metallic button shadow */
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.email-form button:hover {
+    background-color: #003d80; /* Darker metallic blue on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5); /* Deeper shadow on hover */
+}
+
+/* Subtext */
+.subtext {
+    color: #999999;
+    font-size: 14px;
+    text-shadow: 0 0 5px #444; /* Subtle metallic glow */
+}
